@@ -1,14 +1,403 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/main.css">
-    <title>Template</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./css/main.css">
+	<title>Template</title>
 </head>
 <body>
-
-    
+	<!-- -------header---------- -->
+	<header class="header">
+		<div class="container">
+			<div class="header__bag">
+				<div class="header__inner">
+					<a href="#">
+						<img src="./images/header-logo.svg" alt="header-logo">
+					</a>
+					<nav class="nav">
+						<ul class="header__list">
+							<li class="header__item">
+								<a class="header__link" href="#">
+									O’ZBEKISTON
+								</a>
+							</li>
+							<li class="header__item">
+								<a class="header__link" href="#">
+									JAHON
+								</a>
+							</li>
+							<li class="header__item">
+								<a class="header__link" href="#">
+									IQTISODIYOT
+								</a>
+							</li>
+							<li class="header__item">
+								<a class="header__link" href="#">
+									JAMIYAT
+								</a>
+							</li>
+							<li class="header__item">
+								<a class="header__link" href="#">
+									TEXNOLOGIYA
+								</a>
+							</li>
+							<li class="header__item">
+								<a class="header__link" href="#">
+									SPORT
+								</a>
+							</li>
+							<li class="header__item">
+								<a class="header__link" href="#">
+									KUN.UZ LIGHT
+								</a>
+							</li>
+							<li class="header__item">
+								<a class="header__link" href="#">
+									AUDIO XABAR
+								</a>
+							</li>
+						</ul>
+					</nav> 
+				</div>
+				<div class="header__select">
+					<select class="selecet-lang" name="selecet_lang">
+						<option class="lang" value="O’zbekcha">O’zbekcha</option>
+						<option class="lang" value="Ruscha">Ruscha</option>
+						<option class="lang" value="Englizcha">Englizcha</option>
+					</select>
+					<label class="search-buuton" for="">
+						<img class="search-buuton__img" src="./images/lupa.svg" alt="lupa" width="33" height="33">
+					</label>
+				</div>
+			</div>
+		</div>
+		<!-- viloyatlar------- -->
+		<div class="container">
+			<div class="provinces">
+				<ul class="provinces__list">
+					<li class="provinces__item">
+						<a class="provinces__link" href="#">
+							Hududlar
+						</a>
+						<span class="provinces__span"></span>
+					</li>
+					<li class="provinces__item">
+						<a class="provinces__link" href="#">
+							Toshkent
+						</a>
+						<span class="provinces__span"></span>
+					</li>
+					<li class="provinces__item">
+						<a class="provinces__link" href="#">
+							Qoraqalpog‘iston
+						</a>
+						<span class="provinces__span"></span>
+					</li>
+					<li class="provinces__item">
+						<a class="provinces__link" href="#">
+							Andijon
+						</a>
+						<span class="provinces__span"></span>
+					</li>
+					<li class="provinces__item">
+						<a class="provinces__link" href="#">
+							Farg‘ona
+						</a>
+						<span class="provinces__span"></span>
+					</li>
+					<li class="provinces__item">
+						<a class="provinces__link" href="#">
+							Namangan
+						</a>
+						<span class="provinces__span"></span>
+					</li>
+					<li class="provinces__item">
+						<a class="provinces__link" href="#">
+							Samarqand
+						</a>
+						<span class="provinces__span"></span>
+					</li>
+					<li class="provinces__item">
+						<a class="provinces__link" href="#">
+							Buxoro
+						</a>
+						<span class="provinces__span"></span>
+					</li>
+					<li class="provinces__item">
+						<a class="provinces__link" href="#">
+							Xorazm
+						</a>
+						<span class="provinces__span"></span>
+					</li>
+					<li class="provinces__item">
+						<a class="provinces__link" href="#">
+							Surxondaryo
+						</a>
+						<span class="provinces__span"></span>
+					</li>
+					<li class="provinces__item">
+						<a class="provinces__link" href="#">
+							Qashqadaryo
+						</a>
+						<span class="provinces__span"></span>
+					</li>
+					<li class="provinces__item">
+						<a class="provinces__link" href="#">
+							Jizzax
+						</a>
+						<span class="provinces__span"></span>
+					</li>
+					<li class="provinces__item">
+						<a class="provinces__link" href="#">
+							Sirdaryo
+						</a>
+						<span class="provinces__span"></span>
+					</li>
+					<li class="provinces__item">
+						<a class="provinces__link" href="#">
+							Toshkent vil.
+						</a>
+						<span class="provinces__span"></span>
+					</li>
+					<li class="provinces__item">
+						<a class="provinces__link" href="#">
+							Navoiy
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</header>
+	<!-- -------main------------ -->
+	<main class="main">
+		<section class="news-section">
+			<div class="container">
+		<div class="news">
+				<h1 class="visually-hidden">kun.uz yangiliklari</h1>
+				<div class="news__img">
+					<img class="news-3__img" src=./images/new-york.jpg alt="new-york" width="504" height="333">
+					<div class="new__text">
+						<time class="new__time">
+							<img src="./images/kalendar.svg" alt="sana" width="13.55" height="15">
+							20:41 / 15.03.2021
+						</time>
+						<h2 class="new__heading">Mendan nima qolar, ikki misra she’r. Ikki sandiq kitob bir uyum tuproq....</h2>
+						<p class="new__paragrif">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc tortor, nec lectus purus ligula sit aliquam, orci. Id pretium et, porttitor mauris. Feugiat neque suspendisse ornare suspendisse. Ante quis enim tortor viverra lobortis. Mauris, in cras urna augue est vel gravida. Sit lacus, dictum neque dignissim eget sapien mauris, eros.</p>
+					</div>
+				</div>
+				<!-- news-2------ -->
+				<div class="news-2">
+					<ul class="news-2__list">
+						<li class="news-2__item">
+							<img class="news-3__img" src="./images/dengiz.jpg" alt="kema" width="175" height="113">
+							<div class="news-2__text">
+								<time class="new__time">
+									<img src="./images/kalendar.svg" alt="sana" width="13.55" height="15">
+									20:41 / 15.03.2021
+								</time>	
+								<h3 class="news-2__heading">Shok xabar!!! Alisher Navoiy tirik ekan! U hozirda...</h3>
+								<span class="news-2__span"></span>
+							</div>
+							
+						</li>
+						<li class="news-2__item">
+							<img class="news-3__img" src="./images/shar-shara.jpg" alt="kema" width="175" height="113">
+							<div class="news-2__text">
+								<time class="new__time">
+									<img src="./images/kalendar.svg" alt="sana" width="13.55" height="15">
+									20:41 / 15.03.2021
+								</time>	
+								<h3 class="news-2__heading">Shok xabar!!! Alisher Navoiy tirik ekan! U hozirda...</h3>
+								<span class="news-2__span"></span>
+							</div>
+						</li>
+						<li class="news-2__item">
+							<img class="news-3__img" src="./images/verus.jpg" alt="kema" width="175" height="113">
+							<div class="news-2__text">
+								<time class="new__time">
+									<img src="./images/kalendar.svg" alt="sana" width="13.55" height="15">
+									20:41 / 15.03.2021
+								</time>	
+								<h3 class="news-2__heading">Shok xabar!!! Alisher Navoiy tirik ekan! U hozirda...</h3>
+								<span class="news-2__span"></span>
+							</div>
+						</li>
+						<li class="news-2__item">
+							<img class="news-3__img" src="./images/oy.jpg" alt="kema" width="175" height="113">
+							<div class="news-2__text">
+								<time class="new__time">
+									<img src="./images/kalendar.svg" alt="sana" width="13.55" height="15">
+									20:41 / 15.03.2021
+								</time>	
+								<h3 class="news-2__heading">Shok xabar!!! Alisher Navoiy tirik ekan! U hozirda...</h3>
+								<span class="news-2__span"></span>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<!-- newe-3///////////// -->
+				<div class="news-3">
+					<div class="news-3__bag">
+						<img src="./images/aylana.svg" alt="belgi" width="15" height="15">
+						<h3 class="news-3__heading">Muharrir tanlovi</h3>
+					</div>
+					<a class="news-3__link-1" href="#">Barchasi</a>
+				</div>
+				<nav class="news-3__nav">
+					<ul class="news-3__list" >
+						<li class="news-3__item">
+							<img class="news-3__img" src="./images/dog.jpg" alt="dog" width="319" height="196">
+							<div class="news-3__text">
+								<time class="new__time">
+									<img src="./images/kalendar.svg" alt="sana" width="13.55" height="15">
+									20:41 / 15.03.2021
+								</time>
+							</div>	
+							<a class="news-3__link" href="#">
+								<h4 class="news-3__heading-2">Rivojlanishi qishloq xo‘jaligidan boshlangan Xitoy: uning tajribasi biz uchun nega muhim?</h4>
+							</a>
+						</li>
+						<li class="news-3__item">
+							<img class="news-3__img" src="./images/gul-tuvak.jpg" alt="dog" width="319" height="196">
+							<div class="news-3__text">
+								<time class="new__time">
+									<img src="./images/kalendar.svg" alt="sana" width="13.55" height="15">
+									20:41 / 15.03.2021
+								</time>
+							</div>	
+							<a class="news-3__link" href="#">
+								<h4 class="news-3__heading-2">Rivojlanishi qishloq xo‘jaligidan boshlangan Xitoy: uning tajribasi biz uchun nega muhim?</h4>
+							</a>
+						</li>
+						<li class="news-3__item">
+							<img class="news-3__img" src="./images/muz.jpg" alt="dog" width="319" height="196">
+							<div class="news-3__text">
+								<time class="new__time">
+									<img src="./images/kalendar.svg" alt="sana" width="13.55" height="15">
+									20:41 / 15.03.2021
+								</time>
+							</div>	
+							<a class="news-3__link" href="#">
+								<h4 class="news-3__heading-2">Rivojlanishi qishloq xo‘jaligidan boshlangan Xitoy: uning tajribasi biz uchun nega muhim?</h4>
+							</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		    <!-- songi yangiliklar///////// -->
+		   <div class="yengiliklar">
+						<img src="./images/aylana.svg" alt="" width="15" height="15">
+						<h5 class="heading">So’nggi yangiliklar</h5>
+						<ul class="list">
+							<li class="item">
+         <a class="link" href="#">
+										Birgina chegirma bilan cheklanilmaydi – Golden House'da Navro‘z shukuhi!
+									</a>
+									<span class="span-1"></span>
+							</li>
+							<li class="item">
+								<time class="new__time">
+									<img src="./images/kalendar.svg" alt="sana" width="13.55" height="15">
+									20:41
+								</time>
+         <a class="link" href="#">
+										«Yo‘l yomonligi uchun piyodalar aybdormas» - yana qoidabuzarlikni xabar qilish bo‘yicha bahslar haqida
+									</a>
+									<span class="span-1"></span>
+							</li>
+							<li class="item">
+								<time class="new__time">
+									<img src="./images/kalendar.svg" alt="sana" width="13.55" height="15">
+									20:41
+								</time>
+         <a class="link" href="#">
+										«Yo‘l yomonligi uchun piyodalar aybdormas» - yana qoidabuzarlikni xabar qilish bo‘yicha bahslar haqida
+									</a>
+									<span class="span-1"></span>
+							</li>
+							<li class="item">
+								<time class="new__time">
+									<img src="./images/kalendar.svg" alt="sana" width="13.55" height="15">
+									20:41
+								</time>
+         <a class="link" href="#">
+										«Yo‘l yomonligi uchun piyodalar aybdormas» - yana qoidabuzarlikni 
+									</a>
+									<span class="span-1"></span>
+							</li>
+							<li class="item">
+								<time class="new__time">
+									<img src="./images/kalendar.svg" alt="sana" width="13.55" height="15">
+									20:41
+								</time>
+         <a class="link" href="#">
+										«Yo‘l yomonligi uchun piyodalar 
+									</a>
+									<span class="span-1"></span>
+							</li>
+							<li class="item">
+								<time class="new__time">
+									<img src="./images/kalendar.svg" alt="sana" width="13.55" height="15">
+									20:41
+								</time>
+         <a class="link" href="#">
+										«Yo‘l yomonligi uchun piyodalar aybdormas» - yana qoidabuzarlikni xabar qilish bo‘yicha bahslar haqida
+									</a>
+									<span class="span-1"></span>
+							</li>
+							<li class="item">
+								<time class="new__time">
+									<img src="./images/kalendar.svg" alt="sana" width="13.55" height="15">
+									20:41
+								</time>
+         <a class="link" href="#">
+										«Yo‘l yomonligi uchun piyodalar aybdormas» - yana qoidabuzarlikni xabar qilish bo‘yicha bahslar haqida hululululllulufdgfgdg
+									</a>
+									<span class="span-1"></span>
+							</li>
+							<li class="item">
+								<time class="new__time">
+									<img src="./images/kalendar.svg" alt="sana" width="13.55" height="15">
+									20:41
+								</time>
+         <a class="link" href="#">
+										«Yo‘l yomonligi uchun piyodalar aybdormas» - yana qoidabuzarlikni xabar qilish bo‘yicha bahslar haqida
+									</a>
+									<span class="span-1"></span>
+							</li>
+							<li class="item blog">
+								<span class="span"></span>
+								<strong class="strong">Ko’proq yangiliklar</strong>
+								<img class="img-2" src="./images/strelka.svg" alt="" width="20" height="20">
+							</li>
+						</ul>
+					</div>
+					</div>
+				</section>
+				  <!-- banner------------- -->
+						<section class="banner">
+							 <div class="container">
+									<img class="banner__img" src="./images/banner.jpg" alt="banner" width="1336" height="140">
+								</div>
+						</section>
+						<!-- dolzarb xabarlar------- -->
+						<section class="current-news">
+        <div class="container">
+									<div class="news-3__bag">
+										<img src="./images/aylana.svg" alt="belgi" width="15" height="15">
+										<h3 class="news-3__heading">Dolzarb xabarlar</h3>
+									</div>
+									<div class="current-news__right">
+           <img src="./images/oves-kompyuter.jpg" alt="" width="658" height="406">
+											
+									</div>
+								</div>
+						</section>
+	</main>
+	<!-- -------footer----------- -->
+	<footer></footer>
+	
 </body>
 </html>

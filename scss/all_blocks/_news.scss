@@ -1,0 +1,214 @@
+.news-section .container{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.news{
+  width: 100%;
+  max-width: 997px;
+}
+.news__img{
+  width: 100%;
+  max-width: 997px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+  background-color: #EFF2F8;
+  
+}
+.new__text{
+  margin-left: 26px;
+  
+}
+.new__time{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: #000000;
+  opacity: 0.5;
+  margin: 0;
+  padding: 0px;
+}
+.new__heading{
+  max-width: 441.89px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 29px;
+  color: #000000;
+  
+  &:hover{
+    color: rgb(0, 0, 236);
+    opacity: 0.5;
+    cursor: pointer;
+  }
+}
+.new__paragrif{
+  max-width: 441.89px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 26px;
+  color: #000000;
+}
+
+// <!-- news-2------ -->
+.news-2__list{
+  @include reset-list;
+  display: flex;
+  flex-wrap: wrap;
+}
+.news-2__item{
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.news-2__item:nth-child(2n){
+  margin-left: 50px;
+}
+.news-2__text{
+  margin-left: 15px;
+}
+.news-2__heading{
+  max-width: 268px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  color: #000000;
+  
+  &:hover{
+    color: rgb(0, 0, 236);
+    opacity: 0.5;
+    cursor: pointer;
+  }
+}
+.news-2__span{
+  display: block;
+  max-width: 298px;
+  height: 1px;
+  border: 1px solid #EFF2F8;
+  background-color:#EFF2F8 ;
+  margin-top: 40px;
+}
+
+// .news-3----------
+.news-3{
+  width: 100%;
+  max-width: 997px;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  margin-bottom: 41px;
+}
+.news-3__bag{
+  display: flex;
+  align-items: center;
+}
+.news-3__heading{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 10px;
+}
+.news-3__list{
+  @include reset-list;
+  display: flex;
+  margin-bottom: 50px;
+}
+.news-3__item + .news-3__item{
+  margin-left: 20px;
+}
+.news-3__heading-2{
+  max-width: 318px;
+  margin: 0px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+  
+  &:hover{
+    color: rgb(0, 0, 236);
+    opacity: 0.5;
+  }
+}
+.news-3__img:hover{
+  opacity: 0.5;
+  cursor: pointer;
+}
+.news-3__text{
+  margin-top: 12px;
+  margin-bottom: 10px;
+}
+.news-3__link{
+  text-decoration: none;
+}
+
+// <!-- songi yangiliklar///////// -->
+
+.heading{
+  display: inline-block;
+  margin: 0px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+}
+.list{
+  @include reset-list
+}
+.item{
+  max-width: 319px;
+  margin: 0;
+  margin-bottom: 18px;
+  
+}
+.link{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  color: #000000;
+  text-decoration: none;
+
+  &:hover{
+    color: rgb(0, 0, 236);
+    opacity: 0.5;
+  }
+  
+}
+.span-1{
+  width: 100%;
+  max-width:319px;
+  display: block;
+  border: 1px solid #EFF2F8;
+  background-color: #EFF2F8;
+  margin-top: 18px;
+}
+.new__time{
+  display: block;
+  margin-bottom: 10px;
+}
+// .span{
+  //   width: 60px;
+  //   height:0px;
+  //   display: inline-block;
+  //   border: 1px solid blue;
+  //   transform: rotate(270deg);
+  // }
+  .img-2{
+    margin-left: 90px;
+  }
+  .item.blog{
+    padding: 20px;
+    background-color: #EFF2F8;
+    border-radius:  100px;
+  }
+
+  // <!-- banner------------- -->
+  .banner__img{
+    margin-bottom: 20px;
+  }

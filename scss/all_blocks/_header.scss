@@ -1,0 +1,62 @@
+.header{
+ margin-bottom: 15px;
+}
+.header__bag{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding: 19px 0px;
+}
+.header__inner{
+ display: flex;
+ align-items: center;
+ 
+}
+.header__list{
+ @include reset-list;
+ display: flex;
+ align-items: center;
+ margin-left: 50px
+}
+.header__item + .header__item{
+ margin-left: 20px;
+}
+.header__link{
+ text-decoration: none;
+ font-style: normal;
+ font-weight: bold;
+ font-size: 14px;
+ line-height: 17px;
+ color: #000000;
+}
+.selecet-lang{
+ padding-top: 6px;
+ padding-bottom: 6px;
+ padding-left: 14px;
+ padding-right: 6px;
+ margin-right: 8px;
+ border-radius: 100px;
+ background-color: #E6E6E6;
+ border: none;
+}
+.provinces__list{
+ display: flex;
+ @include reset-list;
+ background-color: #E6E6E6;
+ padding: 14px 10px; 
+}
+.provinces__link{
+ font-family: 'Montserrat';
+ font-style: normal;
+ font-weight: normal;
+ font-size: 12px;
+ line-height: 15px;
+ color: #000000;
+ text-decoration: none;
+}
+.provinces__span{
+ border: 1px solid #585858;
+ transform: rotate(90deg);
+ margin-left: 10px;
+ margin-right: 10px;
+}
