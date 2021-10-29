@@ -1,0 +1,65 @@
+.intervyu{
+ background-color: #F0F0F0;
+ padding: 50px 0;
+}
+
+.intervyu__bag{
+ display:flex;
+ justify-content: space-between;
+ align-items: center; 
+ padding-bottom: 30px;
+}
+.intervyu__item{
+ width: 100%;
+ max-width: 299px;
+ background-color: white;
+}
+
+.block-word{
+ font-size: 28px;
+ display: block;
+ color: #E3E3E3;
+ font-weight: 700;
+ position: relative;
+ right: -183px;
+ height: 35px;
+ width: 160px;
+ top: -100px;
+ transform: rotate(-90deg);
+ 
+}
+
+.intervyu__link{ 
+ text-decoration:  none;
+ font-style: normal;
+ font-weight: 600;
+ font-size: 14px;
+ line-height: 17px;
+ color: #17206A;
+}
+.intervyu_icon{
+ margin-left: 10px;
+}
+.intervyu__list{
+ display: flex;
+ justify-content: space-around;
+ list-style: none;
+ padding: 0px;
+}
+.intervyu__img{
+ position: relative;
+ z-index: 1;
+ top: -20px;
+ left: -30px;
+ box-shadow: 9px 9px 5px #17206A;
+}
+.intervyu__paragrif{
+ max-width: 251px;
+ margin: 0 auto;
+ margin-bottom: 20px;
+ font-style: normal;
+ font-weight: bold;
+ font-size: 16px;
+ line-height: 23px;
+ color: #000000;
+}
